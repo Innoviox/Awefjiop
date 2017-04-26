@@ -17,10 +17,10 @@ for line in np.ravel(text, order='F').reshape(-1, 2):
 
 def checkWord(*event):
     word = e.get().lower()
-    dwl["text"] = dictionary.get(word, f"{word} is not a word")
+    dwl["text"] = dictionary.get(word, {v:k for k,v in dictionary.items()}.get(word, f"{word} is not a word"))
     dwl.pack()
     
-l = tk.Label(root, height=2, width=50, text="Type an Awefjiop word below to get it's English meaning.")
+l = tk.Label(root, height=2, width=50, text="Type an Awefjiop word below to get it's \nEnglish meaning (or the other way around).")
 
 e = tk.Entry(root)
 e.delete(0, tk.END)
