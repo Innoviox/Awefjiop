@@ -1,3 +1,4 @@
+
 Awefjiop Pronoun
 English-Parentheses Word
 Wik
@@ -15,7 +16,7 @@ Huni
 English-Parentheses Word
 Affalia
 (to swim)
-Carmia
+Karmia
 (to run)
 Jia
 (to be)
@@ -37,9 +38,9 @@ Jafakia
 (to work)
 Krenlia
 (to laugh)
-Tami
+Tamia
 (to think)
-Baknia
+Paknia
 (to act)
 Makania
 (to change (into))
@@ -60,8 +61,7 @@ Pojamia
 Powepia
 (to fail)
 Pania
-To know
-
+(to know)
 
 
 
@@ -83,28 +83,28 @@ Haha
 (haha)
 Ja
 (yes)
-Wep (Pe?)
+Wep
 (no)
-Jampe
+Jawep
 (maybe)
-Fapowi!
-(yeah!)
+Fapowi
+(yeah)
 Sump
 (sure, whatever)
 Palka
 (of course)
-Kaja?
-(why?)
-Kawep?
-(why not?)
-Afoi!
-(hello!)
-Poei!
-(goodbye!)
-Ael...
-(also…)
-Nark!
-(never!)
+Kaja
+(why)
+Kawep
+(why not)
+Afoi
+(hello)
+Poei
+(goodbye)
+Ael
+(also)
+Nark
+(never)
 Arn
 (always)
 
@@ -139,3 +139,4 @@ Ja
 (or)
 Do
 (but)
+
