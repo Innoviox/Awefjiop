@@ -23,7 +23,10 @@ def find(word, d, other, rev = False):
 
 def checkWord(*event):
     word = e.get().lower()
-    dwl["text"] = find(word, dictionary, find(word, {v:k for k,v in dictionary.items()}, f"{word} is not a word", rev=True))
+    dwl.config(state=tk.NORMAL)
+    dwl.delete(1.0, tk.END)
+    dwl.insert(0.0, find(word, dictionary, find(word, {v:k for k,v in dictionary.items()}, f"{word} is not a word", rev=True)))
+    dwl.config(state=tk.DISABLED)
     dwl.pack()
     
 l = tk.Label(root, height=2, width=50, text="Type an Awefjiop word below to get it's \nEnglish meaning (or the other way around).")
@@ -35,7 +38,7 @@ e.insert(0, "word")
 for i in [l, e]:
     i.pack()
 
-dwl = tk.Label(root)
+dwl = tk.Text(root, state=tk.DISABLED)
 
 root.bind("<Return>", checkWord)
 root.mainloop()
