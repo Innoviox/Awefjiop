@@ -13,11 +13,20 @@ dictionary = {}
 for line in np.ravel(text, order='F').reshape(-1, 2):
     if isLanguageLine(line):
         continue
-    dictionary[line[0].lower()] = line[1].strip('()')
+    dictionary[line[0].lower()] = line[1][1:-1]
+
+def find(word, _d, other, rev = False):
+    l = []
+    for i in _d:
+        if word in _d[i]:
+            l.append((i, _d[i]))
+    if l:
+        return '\n'.join(' means '.join(reversed(i) if rev else i) for i in l)
+    return other
 
 def checkWord(*event):
     word = e.get().lower()
-    dwl["text"] = dictionary.get(word, {v:k for k,v in dictionary.items()}.get(word, f"{word} is not a word"))
+    dwl["text"] = find(word, dictionary, find(word, {v:k for k,v in dictionary.items()}, f"{word} is not a word", rev=True))
     dwl.pack()
     
 l = tk.Label(root, height=2, width=50, text="Type an Awefjiop word below to get it's \nEnglish meaning (or the other way around).")
