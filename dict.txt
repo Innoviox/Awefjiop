@@ -1,27 +1,43 @@
 
 Awefjiop Pronoun
 English-Parentheses Word
+Wi
+(i)
 Wik
 (my)
 La
 (you)
+Lak
+(your)
 Hu/Ha
 (he/she)
-Vini
+Huk/hak
+(his/hers)
+Wini
 (we)
+Wiki
+(ours)
 Huni
-(them)
+(them/they)
+Huki
+(theirs)
+Lani
+(you all)
+Laki
+(you all's)
 
- Awefjiop Verb
+Awefjiop Verb
 English-Parentheses Word
-Affalia
+Afalia
 (to swim)
 Karmia
 (to run)
 Jia
 (to be)
-Kolia
-(to have)
+
+
+
+
 Ria
 (to go)
 Lobia
@@ -31,7 +47,7 @@ Rilkia
 Palkia
 (to tell)
 Fafalia
-(to play)
+(to play a game)
 Ria
 (to like)
 Jafakia
@@ -48,13 +64,15 @@ Makomia
 (to change (out of))
 Namia
 (to need)
+Lia
+(to have)
 Wania
 (to want)
 Pia
 (to see)
 Peomia
 (to understand)
-Attalia
+Atalia
 (to try)
 Pojamia
 (to succeed)
@@ -62,20 +80,138 @@ Powepia
 (to fail)
 Pania
 (to know)
-
-
-
-
-
-
-
+Owia
+(to hear)
+Awmia
+(to feel)
+Atkia
+(to touch)
+Momia
+(to come)
+Nomia
+(to leave a place)
+Umia
+(to use)
+Rataklia
+(to translate)
+Lamokia
+(to take)
+Jitinia
+(to do nothing)
+Kamonia
+(to leave an object)
+Kanalaria
+(to play an instrument)
 
 Awefjiop Noun
 English-Parentheses Word
+Niam
+(person)
+Huam
+(man)
+Haam
+(woman)
+Niamaj
+(child)
+Huamaj
+(boy)
+Haamaj
+(girl)
+Niamoni
+(senior)
+Niamtara
+(magnet (smart person))
+Kam
+(time)
+Lemam
+(second)
+Mekam
+(minute)
+Homam
+(hour)
+Nekam
+(day)
+Womam
+(week)
+Hem
+(year)
+Waf
+(thing)
+Arbab
+(tree)
+Dorma
+(house)
+Dakra
+(car)
+Parfa
+(road)
+Paka
+(place)
+Jioka
+(age)
 
+Awefjiop Adjective
+English-Parentheses Word
+Namo
+(neutral)
+Jafo
+(average)
+Inim
+(small)
+Baho
+(large)
+Onij
+(old)
+Maji
+(young)
+Eja
+(happy)
+Oka
+(sad)
+Emanko
+(energetic)
+Kamaso
+(tired)
+Tarano
+(smart)
+Tarpoko
+(dumb)
+Misin
+(outgoing)
+Mipoin
+(shy)
+Naso
+(new)
+Naskpo
+(old)
+Emahi
+(early)
+Ehapo
+(late)
+Camo
+(hot)
+Frajo
+(cold)
 
+Awefjiop Adverb
+English-Parentheses Word
+Makia
+(very)
+Ael
+(also)
+Nark
+(never)
+Arn
+(always, forever)
 
-
+Awefjiop Preposition
+English-Parentheses Word
+Ko
+(to)
+Nar
+(around)
+Fu
+(from)
 
  Awefjiop Exclamation
 English-Parentheses Word
@@ -83,30 +219,32 @@ Haha
 (haha)
 Ja
 (yes)
-Wep
+Po
 (no)
-Jawep
+Japo
 (maybe)
 Fapowi
 (yeah)
-Sump
-(sure, whatever)
+Fump
+(sure)
 Palka
 (of course)
 Kaja
 (why)
-Kawep
+Kajpo
 (why not)
 Afoi
 (hello)
 Poei
 (goodbye)
-Ael
-(also)
-Nark
-(never)
-Arn
-(always)
+
+
+
+
+
+
+
+
 
 
 
@@ -128,15 +266,14 @@ Arn
 Awefjiop Phrase
 English-Parentheses Phrase
 Kwop (krenwido wik ospea pjio)
-(lmao (laugh(ing?) my a** off)
+(lmao (laugh(ing?) my a** off))
 
 
 Awefjiop Conjunction
 English-Parentheses Phrase
-Io
+A
 (and)
-Ja
+O
 (or)
 Do
-(but)
-
+(but, however)

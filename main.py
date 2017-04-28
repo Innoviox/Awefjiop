@@ -15,11 +15,8 @@ for line in np.ravel(text, order='F').reshape(-1, 2):
         continue
     dictionary[line[0].lower()] = line[1][1:-1]
 
-def find(word, _d, other, rev = False):
-    l = []
-    for i in _d:
-        if word in _d[i]:
-            l.append((i, _d[i]))
+def find(word, d, other, rev = False):
+    l = [item for item in d.items() if word in item[1]]
     if l:
         return '\n'.join(' means '.join(reversed(i) if rev else i) for i in l)
     return other
@@ -34,7 +31,6 @@ l = tk.Label(root, height=2, width=50, text="Type an Awefjiop word below to get 
 e = tk.Entry(root)
 e.delete(0, tk.END)
 e.insert(0, "word")
-
 
 for i in [l, e]:
     i.pack()
